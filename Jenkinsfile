@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         PATH = "C:\\Users\\Ark\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;${env.PATH}"
+        KUBECONFIG = "C:\\Users\\Ark\\.kube\\config"
         IMAGE_NAME = "cicdproj:latest"
     }
 
