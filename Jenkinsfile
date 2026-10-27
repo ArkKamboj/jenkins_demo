@@ -43,7 +43,7 @@ pipeline {
         success {
             echo '========================================='
             echo ' CI/CD Pipeline Completed Successfully!  '
-            echo ' App URL: http://localhost:30081/api/demo/hello '
+            echo ' App URL: http://localhost:30082/api/demo/hello '
             echo '========================================='
         }
         failure {
